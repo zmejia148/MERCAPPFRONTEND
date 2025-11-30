@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:3000/api', // Ajusta según tu API
+  baseURL: 'https://mercappbackend-production.up.railway.app', // Ajusta según tu API
   timeout: 10000,
 });
 
