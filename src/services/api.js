@@ -29,7 +29,7 @@ api.interceptors.response.use(
     return Promise.reject(error);
   }
 );
-
+console.log("URL final:", import.meta.env.VITE_API_URL + "/api/auth/register");
 export default api;
 
-console.log("URL final:", import.meta.env.VITE_API_URL + "/api/auth/register");
+
